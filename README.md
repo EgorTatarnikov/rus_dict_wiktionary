@@ -18,11 +18,12 @@
 * `russian_dictionary.txt` - словарь русского языка (TXT)
 
 ## Ссылки на дампы:
-* https://dumps.wikimedia.org/ruwiktionary/latest/ - страница с последними дампами русского Викисловаря
+* https://dumps.wikimedia.org/ruwiktionary/latest/ - страница с последними дампами русского раздела Wiktionary
 * https://dumps.wikimedia.org/ruwiktionary/latest/ruwiktionary-latest-pages-articles-multistream.xml.bz2
 
 ## Как формировался словарь
-Скачан дамп: `ruwiktionary-latest-pages-articles-multistream.xml.bz2`.
+Скачан дамп `ruwiktionary-latest-pages-articles-multistream.xml.bz2`, который содержит тексты всех статей русского раздела Wiktionary. <br>
+Для формирования словаря используется полный дамп статей, так как он позволяет выполнять фильтрацию по языку и содержимому.
 
 Дамп распакован. Из XML извлечены статьи.
 
@@ -35,7 +36,7 @@
 
 ## Ограничения
 - Наличие русского раздела и фильтрация по кириллице не гарантируют, что слово русское
-- В словаре присутствуют редкие, заимствованные и шумовые слова
+- В словаре присутствуют редкие, заимствованные и специфичные слова
 - Отсутствует строгая лемматизация
 
 ## Итог
