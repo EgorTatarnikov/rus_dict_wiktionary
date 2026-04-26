@@ -18,12 +18,12 @@
 * `rus_dict.ipynb` - ноутбук с проектом
 * `russian_dictionary.csv` - список слов русского языка (CSV)
 * `russian_dictionary.txt` - список слов русского языка (TXT)
-* `only_in_wiktionary.csv` - список слов, которые встречаются в словаре из wiktionary, но отсутствуют в pymorphy (CSV)
-* `only_in_wiktionary.txt` - список слов, которые встречаются в словаре из wiktionary, но отсутствуют в pymorphy (TXT)
+* `only_in_wiktionary.csv` - список слов, которые есть в словаре из Wiktionary, но отсутствуют в pymorphy (CSV)
+* `only_in_wiktionary.txt` - список слов, которые есть в словаре из Wiktionary, но отсутствуют в pymorphy (TXT)
 
 ## Ссылки на дампы:
 * https://dumps.wikimedia.org/ruwiktionary/latest/ - последние дампы русского раздела Wiktionary
-* https://dumps.wikimedia.org/ruwiktionary/latest/ruwiktionary-latest-pages-articles-multistream.xml.bz2
+* https://dumps.wikimedia.org/ruwiktionary/latest/ruwiktionary-latest-pages-articles-multistream.xml.bz2 - полный дамп статей русского раздела Wiktionary
 
 ## Как формировался словарь
 Скачан дамп `ruwiktionary-latest-pages-articles-multistream.xml.bz2`, который содержит тексты всех статей русского раздела Wiktionary. <br>
